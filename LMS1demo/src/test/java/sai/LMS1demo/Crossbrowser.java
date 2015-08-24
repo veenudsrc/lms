@@ -46,7 +46,7 @@ public void setup(String browser) throws Exception{
     if(browser.equalsIgnoreCase("firefox")){
 
     //create firefox instance
-    	System.out.println("Inside set up..");
+    	System.out.println("Inside set up..added by Veenu on 24/8");
 //        driver = new FirefoxDriver();
         System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
         
