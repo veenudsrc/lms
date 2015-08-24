@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="102" started-at="2015-08-12T12:55:10Z" finished-at="2015-08-12T12:55:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="102" started-at="2015-08-12T12:55:10Z" finished-at="2015-08-12T12:55:10Z">
+      <class name="sai.LMS1demo.Crossbrowser">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:sai.LMS1demo.Crossbrowser@4563e9ab]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-12T18:25:10Z" finished-at="2015-08-12T18:25:10Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\veenu.s\AppData\Local\Temp\testng-eclipse--2021696068\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\veenu.s\AppData\Local\Temp\testng-eclipse--2021696068\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testParameterWithXML()[pri:0, instance:sai.LMS1demo.Crossbrowser@4563e9ab]" name="testParameterWithXML" duration-ms="10" started-at="2015-08-12T18:25:10Z" finished-at="2015-08-12T18:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- sai.LMS1demo.Crossbrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
