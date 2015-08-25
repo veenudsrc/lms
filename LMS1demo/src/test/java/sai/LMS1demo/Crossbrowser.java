@@ -53,7 +53,7 @@ public void setup(String browser) throws Exception{
         //create chrome instance
 
       driver = new ChromeDriver();
-
+      System.out.println("Initialising chrome driver"); 
     }
 
 
